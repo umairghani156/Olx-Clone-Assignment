@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olx Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #icon {
+            margin-left: 40%;
+        }
+        #size {
+            font-family: sans-serif;
+            font-size: small;
+            font-weight: 750;
+            color: #222;
+            padding-left: 5px;
+        }
+        #jam {
+            margin-left: 3%;
+        }
+        #hum {
+            margin-left: 2%;
+            vertical-align: middle;
+            height: 50px;
+            width: 290px;
+            text-decoration: none;
+            color: black;
+            border: 2px solid;
+            border-radius: 5px;
+            padding-left: 10px;
+            font-size: medium;
+            opacity: 0.9;
+            font-family: sans-serif;
+
+        }
+
+        #great {
+            display: flex;
+
+            width:100%;
+            margin-left: 1%;
+            padding-left: 5px;
+            border:none;
+            border-width: 0;
+            font-size: medium;
+            background-color: transparent;
+            outline: none; 
+        }
+        #tag {
+            margin-left: 2%;
+        }
+
+        .but {
+            height: 100px;
+            width: 100px;
+        }
+
+        #hug {
+            margin-left: 4%;
+        }
+
+        #dual {
+            text-align: center;
+            justify-content: center;
+            margin-left: 5%;
+            vertical-align: text-bottom;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding-top: 15px;
+
+        }
+
+        .dual2 {
+            display: flex;
+        }
+
+        #dual1 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 10%;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+
+        #fit {
+            width: 200px;
+            text-decoration: none;
+
+
+        }
+
+        .go {
+            text-align: center;
+        }
+
+        #yoke {
+            border: 1px solid #a1a1a1;
+            text-decoration: none;
+            box-sizing: border-box;
+            text-align: justify;
+            border-radius: 10px;
+
+        }
+
+        #wait {
+            overflow-inline: auto;
+        }
+
+        #item {
+            display: inline;
+            width: 300px;
+            block-size: auto;
+
+        }
+
+        #part1 {
+            margin-left: 3%;
+        }
+
+        .stand {
+            margin-left: 50%;
+        }
+
+        .motors {
+            width: 35px;
+            background-color:#ebeeef;
+            padding: 0;
+            border-radius: 50%;
+        }
+        .sticky{
+            position: absolute;
+            margin-top: 9.8%;
+            z-index: -1;
+        }
+        .input_line{
+            display: flex;
+            width: 265px;
+            height: 48px;
+            border: 2px solid #222;
+            border-radius: 5px;
+            background-color: white;
+        }
+        .input_line select {
+            border: none;
+            outline: none;
+            margin: 0 0.5rem;
+            width: 100%;
+            height: 100%;
+            font-size: medium;
+            border-radius: 10px;
+            
+        }
+        #box1{
+            display: flex;
+            align-items: center;
+            margin-top: 45%;
+            margin-left: 10px;
+            background-color: white;
+            width: 17px;
+        }
+        #box1 a{
+            display: flex;
+            align-items: center;
+            padding-top: 10px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header class="navbar">
+        <table>
+            <tr>
+                <td> <input type="image" src="./Assets/Images/1olx.png" width="100px"></td>
+                <td> <input class="motors" type="image" src="./Assets/Images/2car.png"></td>
+                <td id="size">MOTORS</td>
+                <td> <input class="motors" type="image" src="./Assets/Images/3property.png" id="icon" width="40px"></td>
+                <td id="size"> &nbsp;&nbsp; PROPERTY</td>
+            </tr>
+        </table>
+
+        <form action="">
+            <div class="nav">
+                <input type="image" src="./Assets/Images/4olxb.png" width="60px">
+                <div class="input_line">
+                <a href="#"><img id="box1" src="./Assets/Images/search_icon2.png" alt="" width="20px"></a>
+                <select>
+                    <option value="">Search city,area or locality</option>
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="">Azad Kashmir,Pakistan</option>
+                    <option value="">Balochistan,Pakistan</option>
+                    <option value="">Islamabad Capital Territory,Pakistan</option>
+                    <option value="">Khyber Pakhtunkhwa,Pakistan </option>
+                    <option value="">Northern Areas, Pakistan</option>
+                    <option value="">Punjab,Pakistan</option>
+                    <option value="">Sindh,Pakistan</option>
+                    </select>
+                </div>
+                    <div class="container">
+                    <input id="great" type="search" placeholder="Find Cars, Mobile Phones and more...">
+                     <div class="container_1">
+                        <a href="#"><img src="./Assets/Images/1.png" alt=""></a>
+                     </div>
+                    </div>
+                    <span id="total"><a href="https://www.olx.com.pk/">Login</a></span>
+                    <a href="" id="total2"><span>&#x2B</span>SELL </a>
+                    <i><img id="total3" src="./Assets/Images/last.png" alt=""></i>
+            </div>
+        </form>
+    </header>
+    <main class="sticky">
+    <div class="nav1">
+        <div class="nav2">
+            <select class="nav3">
+                <option class="nav4" value=""><b>All Categories</b>
+            </select>
+            <a id="hum1" href="">Mobile Phones</a>
+            <a id="hum1" href="">Cars</a>
+            <a id="hum1" href="">Motorcycles</a>
+            <a id="hum1" href="">Houses</a>
+            <a id="hum1" href="">TV-Video-Audio</a>
+            <a id="hum1" href="">Tablets</a>
+            <a id="hum1" href="">Land & Plots</a>
+        </div>
+    </div>
+    <div class="items">
+        <input class="back" type="image" src="./Assets/Images/frontpic.jpg" id="" width="1070px">
+        <center>
+            <input type="image" src="./Assets/Images/6559072546306553825.png" width="600">
+        </center>
+    </div>
+    </form>
+    <h2>All Categories</h2>
+
+    <table>
+        <tr class="Merge">
+            <td id="dual"><a id="dual2" href=""><img id="wow" src="./Assets/Assets/Images/mobiles.8.png" alt=""
+                        height="100px" width="100px"><br>Mobiles</a> </td>
+            <td id="dual"><a id="dual2" href=""><img src="./Assets/Assets/Images/vehicles.29.png" alt="" height="100px"
+                        width="100px"><br>Vehicles</a></td>
+            <td id="dual"><a id="dual2" href=""><img src="./Assets/Assets/Images/property-for-sale.e.png" alt=""
+                        height="100px" width="100px"><br>Property For Sale</a></td>
+            <td id="dual"><a id="dual2" href=""><img src="./Assets/Assets/Images/property-for-rent.84.png" alt=""
+                        height="100px" width="100px"><br>Property For <br> Rent</a></td>
+            <td id="dual"><a id="dual2" href=""><img src="./Assets/Assets/Images/electronics-home-appliances.46.png"
+                        alt="" height="100px" width="100px"><br>Electronics & <br>Home <br>Appliances</a></td>
+            <td id="dual"><a id="dual2" href=""><img src="./Assets/Assets/Images/bikes.4d.png" alt="" height="100px"
+                        width="100px"><br>Bikes</a>
+            </td>
+            <td id="dual"><a id="dual2" href=""><img src="./Assets/Assets/Images/business-industrial-agriculture.7.png"
+                        alt="" height="100px" width="100px"><br>Business <br>Industrial & <br>Agriculture</a></td>
+            <td id="dual"><a id="dual2" href=""><img src="./Assets/Assets/Images/services.dc.png" alt="" height="100px"
+                        width="100px"><br>Services</a></td>
+            <td id="dual"><a id="dual2" href=""><img src="./Assets/Assets/Images/jobs.7.png" alt="" height="100px"
+                        width="100px"><br>Jobs</a></td>
+        </tr>
+    </table>
+    <br><br>
+    <table>
+        <tr class="dual2">
+            <td id="dual1"><a id="dual2" href=""><img src="./Assets/Assets/Images/animals.62.png" alt="" height="100px"
+                        width="100px"><br>Animals</a></td>
+            <td id="dual1"><a id="dual2" href=""><img src="./Assets/Assets/Images/furniture-home-decor.66.png" alt=""
+                        height="100px" width="100px"><br>Furniture & <br>Home Decor</a></td>
+            <td id="dual1"><a id="dual2" href=""><img src="./Assets/Assets/Images/fashion-beauty.dd.png" alt=""
+                        height="100px" width="100px"><br>Fashion & <br> Beauty</a></td>
+            <td id="dual1"><a id="dual2" href=""><img src="./Assets/Assets/Images/books-sports-hobbies.6f.png" alt=""
+                        height="100px" width="100px"><br>Books,Sports <br>& Hobbies </a></td>
+            <td id="dual1"><a id="dual2" href=""><img src="./Assets/Assets/Images/kids.cd.png" alt="" height="100px"
+                        width="100px"><br> Kids</a>
+            </td>
+        </tr>
+    </table>
+    <div class="float">
+        <p>Mobiles Phones</p>
+        <a href="">View more &gt;</a>
+    </div>
+    <div class="cars">
+        <div class="gallery">
+            <a id="car1" href=""></a>
+            <div class="fitting">
+            <h4>Rs 98,000 <span><img src="./Assets/Images/dil.png" alt="" width=""></span></h4>
+            <p>ONEPLUS 9PRO 12GB 256GB</p>
+            <p id="down">Mughalpura,Lahore</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a id="car2" href=""></a>
+            <div class="fitting">
+            <h4>Rs 64,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>OnePlus 8 5G PTA APPROVED</p>
+            <p id="down">M.A Jinnah Road,Karachi</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a id="car3" href=""></a>
+            <div class="fitting">
+            <h4>Rs 39,999<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Iphone X 64GB</p>
+            <p id="down">Khana Pul,Islamabad</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a id="car4" href=""></a>
+            <div class="fitting">
+            <h4>Rs 42,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Samsung A53 5G A52 A51</p>
+            <p id="down">Gulberg 3,Lahore</p>
+            </div>
+        </div>
+    </div>
+    <div class="float">
+        <p>cars</p>
+        <a href="">View more   &gt;</a>
+    </div>
+    <div class="cars">
+        <div class="gallery">
+            <a id="cars1" href=""></a>
+            <div class="fitting">
+            <h4>Rs 1,825,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Honda city 2008/2009 80% original 15-16 average with ac </p>
+            <p id="down">Mughalpura,Lahore</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a id="cars2" href=""></a>
+            <div class="fitting">
+            <h4>Rs 5,185,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Honda Civic I-Vtec 1.8 Oriel Prosmatec UG Full Option(Reg...)</p>
+            <p id="down">Ghauri Garden,Islamabad</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a id="cars3" href=""></a>
+            <div class="fitting">
+            <h4>Rs 13,100,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Toyota Furtuner Bumper to Bumper Genuine</p>
+            <p id="down">Johar Town,Lahore</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a id="cars4" href=""></a>
+            <div class="fitting">
+            <h4>Rs 2,200,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Toyota Belta 1.3</p>
+            <p id="down">Baghbanpura,Gujranwala</p>
+            </div>
+        </div>
+    </div>
+    <div class="float">
+        <p>Bikes & Motorcycles</p>
+        <a href="">View more  &gt;</a>
+    </div>
+    <div class="cars">
+        <div class="gallery">
+            <a id="bike1" href=""></a>
+            <div class="fitting">
+            <h4>Rs 185,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Honda CG 125 model 2022</p>
+            <p id="down">Others, Gujranwala</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a id="bike2" href=""></a>
+            <div class="fitting">
+            <h4>Rs 85,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Honda 70cc 2023 model</p>
+            <p id="down">M.A Jinnah Road,Karachi</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a id="bike3" href=""></a>
+            <div class="fitting">
+            <h4>Rs 5,80,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Kawasaki 350cc 10/10 new</p>
+            <p id="down">Bhikhi road,Islamabad</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a id="bike4" href=""></a>
+            <div class="fitting">
+            <h4>Rs 215,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Yamaha YbR-2018 model</p>
+            <p id="down">Gulberg 3,Lahore</p>
+            </div>
+        </div>
+    </div>
+    <div class="float">
+        <p>TV-Video-Audio</p>
+        <a href="">View more &gt;</a>
+    </div>
+    <div class="cars">
+        <div class="gallery">
+            <a href=""><img src="./mobiles/Tv and Videos/1.jpg" id="car1" alt=""></a>
+            <div class="fitting">
+            <h4>Rs 36,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>43" samsung UHD Led latest model Q led 2023 best</p>
+            <p id="down_love4">Ferozepur Road,Lahore</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href=""><img src="./mobiles/Tv and Videos/2.jpg" id="car2" alt=""></a>
+            <div class="fitting">
+            <h4>Rs 36,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Grand Offer 43 inch Samsung 4k UHD LED TV </p>
+            <p id="down_love4">Allama Iqbal Town,Lahore</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href=""><img src="./mobiles/Tv and Videos/3.jpg" id="car3" alt=""></a>
+            <div class="fitting">
+            <h4>Rs 42,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Iphone X 64GB</p>
+            <p id="down_love5">Khana Pul,Islamabad</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href=""><img src="./mobiles/Tv and Videos/4.jpg" id="car4" alt=""></a>
+            <div class="fitting">
+            <h4>Rs 19,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>IPTV 4k 24k Live Tv Channels & 140k VOD</p>
+            <p id="down_love4">DHA Defence,Islamabad</p>
+            </div>
+        </div>
+    </div>
+    <div class="float">
+        <p>Tablets</p>
+        <a href="">View more &gt;</a>
+    </div>
+    <div class="cars">
+        <div class="gallery">
+            <a href=""><img src="./mobiles/Tablets/1.jpg" id="car1" alt=""></a>
+            <div class="fitting">
+            <h4>Rs 19,999<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Microsoft Surface Pro 3-4th Generation-Core i5 All Models...</p>
+            <p id="down_love2">Saddar,Karachi</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href=""><img src="./mobiles/Tablets/2.jpg" id="car2" alt=""></a>
+            <div class="fitting">
+            <h4>Rs 11,500<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Apple iPad available in different ranges</p>
+            <p id="down_love2">Others,Gujrat</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href=""><img src="./mobiles/Tablets/3.jpg" id="car3" alt=""></a>
+            <div class="fitting">
+            <h4>Rs 7,500<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>Apple iPad 9th Generation Brand New Stock 100% Original COD</p>
+            <p id="down_love2">Saddar,Karachi</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href=""><img src="./mobiles/Tablets/4.jpg" id="car4" alt=""></a>
+            <div class="fitting">
+            <h4>Rs 15,499<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>ALCATEL JOY TAB 2 2020 MODEL 8*INCHES DISPLAY 3GB RAM 32GB...</p>
+            <p id="down_love3">Naya Nazimabad,Karachi</p>
+            </div>
+        </div>
+    </div>
+    <div class="float">
+        <p>Land & Plots</p>
+        <a href="">View more &gt;</a>
+    </div>
+    <div class="cars">
+        <div class="gallery">
+            <a href=""><img src="./mobiles/Land & Plots/1.jpg" id="car1" alt=""></a>
+            <div class="fitting">
+            <h4>Rs 20,000,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>1 Kanal Main Road AGOCHS</p>
+            <p id="down_love1">AGHOSH,Islamabad</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href=""><img src="./mobiles/Land & Plots/2.jpg" id="car2" alt=""></a>
+            <div class="fitting">
+            <h4>Rs 13,000,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>5.5 marla plot for sale at Sunfort villas Jammu Road Sialkot</p>
+            <p id="down_love">Sunfort Defense Villas,Sialkot</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href=""><img src="./mobiles/Land & Plots/3.jpg" id="car3" alt=""></a>
+            <div class="fitting">
+            <h4>Rs 4,800,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>10 Marla, Semi Developed, 35*70 Dimension, available for sale in...</p>
+            <p id="down_love">Bahria Town Phase 8,Islamabad</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <a href=""><img src="./mobiles/Land & Plots/4.jpg" id="car4" alt=""></a>
+            <div class="fitting">
+            <h4>Rs 20,000,000<span><img src="./Assets/Images/dil.png" alt=""></span></h4>
+            <p>1 Kanal Main Road AGOCHS</p>
+            <p id="down_love1">Gulberg 3,Lahore</p>
+            </div>
+        </div>
+    </div>
+    <div class="advertise">
+        <div>
+         <img src="./mobiles/Ads/1.webp" alt="">
+        </div>
+        <div class="advertise2">
+         <h1>TRY THE OLX APP</h1>
+         <p>Buy, sell and find just about anything using<br> the app on your mobile</p>
+        </div>
+        <div class="advertise3">
+         <h5>GET YOUR APP TODAY</h5>
+         <div>
+            <img src="./mobiles/Ads/2.jpg" alt="" width="128px" height="40px">
+            <img src="./mobiles/Ads/2.webp" alt="" width="128px" height="40px">
+            <img src="./mobiles/Ads/4.png" alt="" width="128px" height="40px">
+         </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div>
+                <p>POPULAR CATEGORIES</p>
+            <ul>
+                <li><a href="">Cars</a></li>
+                <li><a href="">Flats for rent</a></li>
+                <li><a href="">Mobile Phones</a></li>
+                <li><a href="">Jobs</a></li>
+            </ul>
+            </div>
+            <div>
+                <p>TRENDING SEARCHES</p>
+            <ul>
+                <li><a href="">Bikes</a></li>
+                <li><a href="">Watches</a></li>
+                <li><a href="">Books</a></li>
+                <li><a href="">Dogs</a></li>
+            </ul>
+            </div>
+            <div>
+                <p>ABOUT US</p>
+            <ul>
+                <li><a href="">About Dubizzle Group</a></li>
+                <li><a href="">Olx Blog</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">OLX for Businesses</a></li>
+            </ul>
+            </div>
+            <div>
+                <p>OLX</p>
+            <ul>
+                <li><a href="">Help</a></li>
+                <li><a href="">Sitemap</a></li>
+                <li><a href="">Terms of use</a></li>
+                <li><a href="">Privacy Policy</a></li>
+            </ul>
+            </div>
+            <div>
+                <p>FOLLOW US</p>
+                <div class="block">
+                <img src="./mobiles/Ads/bird.svg" alt="">
+                <img src="./mobiles/Ads/f.svg" alt="">
+                <img src="./mobiles/Ads/Y.svg" alt="">
+                <img src="./mobiles/Ads/ins.svg" alt="">
+                </div>
+                <div class="block2">
+                 <img src="./mobiles/Ads/2.jpg" alt="" width="90px">
+                 <img src="./mobiles/Ads/2.webp" alt="" width="90px">
+                 <img src="./mobiles/Ads/4.png" alt="" width="90px">
+                </div>
+            </div>
+        </div>
+        <div class="lastFooter">
+            <p>Free Classifieds in Pakistan</p>
+            <p>. &#169 2006-2023 OLX</p>
+        </div>
+    </footer>
+</main>
+
+</body>
+
+</html>
